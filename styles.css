@@ -70,7 +70,8 @@
 .intro-leftColumn {
   flex-basis: 400px;
   display: flex;
-  top: 200px;
+  position: relative;
+  top: 90px;
   flex-direction: column;
   text-align: left;
   justify-content: space-between;
@@ -117,10 +118,153 @@ h1 {
 
 }
 
+/*reviews part */
+
+.reviews-part {
+  background-color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', arial;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.reviews {
+  display: flex;
+  /* border: 1px solid gold; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reviews img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
 
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*quote part */
+
+.quote-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E5E7EB;
+  align-items: center;
+  justify-content: center;
+  padding: 0 200px;
+}
+
+.quote-part p {
+  font-size: 36px;
+  color: #1F2937;
+
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'Roboto', arial;
+  
+  
+}
+
+.quote-part b {
+  padding-bottom: 20px;
+  padding-right: 10px;
+  font-family: 'Roboto', arial;
+  text-align: right;
+}
 
 
+/* Sign Up Part */
+.sign-up-part {
+  border: red;
+  background-color: #3882F6 ;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-color: none;
+}
+
+/* sign up part */
+.sign-item {
+  flex: 1;
+}
+
+.signs-text {
+  text-align: left;
+}
+
+.signs-text p {
+  border: red;
+  color: #fff;
+  opacity: 0.7;
+  margin: 5px 30px 30px 50px;
+}
+
+h3 {
+  color: #fff;
+  font-family: 'Roboto', arial;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+  color: #fff;
+  display: flex;
+  position: relative;
+  font-family: 'Roboto', arial;
+  right: -200px;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 5px 25px;
+  justify-content: flex-end;
+  
+  font-size: 15px;
+}
 
 
+/* footer */
+.footer {
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+h4 {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
